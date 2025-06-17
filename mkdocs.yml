@@ -1,0 +1,87 @@
+# Project information
+site_name: NinHub Documentation
+# IMPORTANT: This will be the URL of your NEW public docs repository's GitHub Pages site
+site_url: https://xHashii.github.io/NinHub-Docs/ 
+site_author: Shouri/G-Dragon & Atari
+# Link to your NEW public docs repository
+repo_name: xHashii/NinHub-Docs
+# edit_uri can point to the docs repo directly
+edit_uri: edit/main/docs/ # Assumes 'main' branch and 'docs' folder in NinHub-Docs repo
+
+# Copyright
+copyright: Copyright © 2025 - 2026 Shouri/G-Dragon & Atari
+
+# Theme Configuration (same as before)
+theme:
+  name: material
+  language: en
+  logo: assets/logo.png # Path relative to 'docs' folder in NinHub-Docs repo
+  favicon: assets/favicon.png # Path relative to 'docs' folder in NinHub-Docs repo
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.annotate
+    - content.tabs.link
+    - toc.integrate
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo 
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    repo: fontawesome/brands/github
+
+# Plugins (same as before)
+plugins:
+  - search
+
+# Extensions for Markdown (same as before)
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - attr_list
+  - md_in_html
+
+# Navigation (same as before, paths are relative to the 'docs' folder in NinHub-Docs)
+nav:
+  - 'Home': 'index.md'
+  - 'Bot Commands':
+    - 'Overview': 'commands/index.md'
+    - 'For Everyone': 'commands/general.md'
+    - 'For Moderators': 'commands/moderator.md'
+    - 'For Administrators': 'commands/administrator.md'
+  - 'Website Features':
+    - 'Player Profiles': 'features/profiles.md'
+    - 'Marketplace': 'features/marketplace.md'
+    - 'Nindex': 'features/nindex.md'
+    - 'Build Calculator': 'features/build-calculator.md'
+  - 'Setup & Configuration':
+    - 'Bot Invite & Permissions': 'setup/bot-invite.md'
+    - 'Server Configuration': 'setup/server-config.md'
