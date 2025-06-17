@@ -1,0 +1,10 @@
+site/
+__pycache__/
+*.pyc
+*.tmp
+# Any OS-specific files like .DS_Store (macOS) or Thumbs.db (Windows)
+.DS_Store
+Thumbs.db
+# Any editor-specific or IDE-specific folders/files
+.vscode/
+.idea/

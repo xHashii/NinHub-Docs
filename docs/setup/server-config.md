@@ -6,5 +6,4 @@ You can view current settings or update them. You only need to provide the param
 
 ## Viewing Current Settings
 Simply type:
-```discord
-/server_config
+`/server_config`

@@ -9,6 +9,6 @@ The NinHub website features a comprehensive Build Calculator to help you plan an
 *   **Jutsu Information:** View damage (scaled with your stats), chakra cost, level requirements, stat requirements, cast times, stun times, and other effects for all jutsus.
 *   **Damage Calculation:** See calculated melee damage and projectile damage (Kunai, Shuriken, Senbon) based on your stats and equipment.
 *   **Buff Simulation:** Activate common buffs like Youthful Spring, Sake, or Cursed Seal to see their effect on your stats and damage.
-*   **Save & Share (Future Feature):** *(If you plan to implement saving/sharing builds via the website)*
+*   **Save & Share (Future Feature):** Save and share your builds for people to see.
 
 Access the Build Calculator on the [NinHub website](https://ninhub.xyz/builds/create).

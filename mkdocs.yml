@@ -6,7 +6,7 @@ site_author: Shouri/G-Dragon & Atari
 # Link to your NEW public docs repository
 repo_name: xHashii/NinHub-Docs
 # edit_uri can point to the docs repo directly
-edit_uri: edit/main/docs/ # Assumes 'main' branch and 'docs' folder in NinHub-Docs repo
+edit_uri: https://github.com/xHashii/NinHub-Docs/edit/main/docs/ # Assumes 'main' branch and 'docs' folder in NinHub-Docs repo
 
 # Copyright
 copyright: Copyright © 2025 - 2026 Shouri/G-Dragon & Atari
